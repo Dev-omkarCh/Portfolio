@@ -1,0 +1,24 @@
+.theme{
+    height: 25px;
+    width: 60px;
+    display: flex;
+    position: relative;
+    background-color: black;
+    border-radius: 20px;
+    align-items: center;
+    transition: all 1s ease-in-out;
+}
+.circle{
+    transition: all .7s ease-in-out;
+    height: 70%;
+    width: 30%;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.darkTheme{
+   background-color: white;
+}
+.darkCircle{
+   background-color: black;
+}
